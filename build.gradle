@@ -15,11 +15,9 @@ plugins {
 }
 import de.undercouch.gradle.tasks.download.Download
 
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
-
 
 jar {
     baseName = 'app'
