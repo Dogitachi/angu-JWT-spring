@@ -21,7 +21,6 @@ import java.util.*;
 import com.app.identity.*;
 
 
-
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig{
