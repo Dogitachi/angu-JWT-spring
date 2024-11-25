@@ -16,7 +16,6 @@ public class MainApp {
 	}
 }
 
-
 /*
 SpringBoot Notes
 
