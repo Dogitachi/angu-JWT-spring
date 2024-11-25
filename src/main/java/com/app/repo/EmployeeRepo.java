@@ -6,7 +6,6 @@ import java.util.Optional;
 import java.util.*;
 import com.app.model.employee.*;
 
-
 public interface EmployeeRepo extends JpaRepository<Employee, Integer> {
     public List<Employee> findAll();
     public Page<Employee> findAll(Pageable p);
