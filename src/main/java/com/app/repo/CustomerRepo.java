@@ -13,7 +13,5 @@ public interface CustomerRepo extends JpaRepository<Customer, Integer> {
     void delete(Customer c);
     void delete(Integer id);
     boolean exists( Integer id);
-
-
 }
 
